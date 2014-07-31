@@ -129,7 +129,7 @@ if __name__ == "__main__":
     params = {
         "state":"ca",
         "sdate":"20400701",
-        "edate":"20400730",
+        "edate":"20400731",
         "grid":"6",
         "output":"json",
         "elems":[{"name":"pcpn","smry":"sum","smry_only":1}],

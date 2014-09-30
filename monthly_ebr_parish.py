@@ -15,7 +15,8 @@ w=0
 stnid=[]
 for x in range (0,len(b)):
 	for w in range (0,len(b[x]['meta']['sids'])):
-		if b[x]['meta']['sids'][w][len(b[x]['meta']['sids'][w])-1]=='6':
+		id,stntype =  b[x]['meta']['sids'][w].split(' ')
+		if stntype == '6':
 			stnid.append(b[x]['meta']['sids'][w])
 	w=0
 stnname=[]  # create empty list to hold the station names

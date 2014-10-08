@@ -8,6 +8,9 @@ within a bounding box.
 The resulting table list the station name
 and the start/end dates
 inbetween which the station recorded precipitation data.
+
+jsfiddle link
+http://jsfiddle.net/wsr57yL0/1/
 */
 
 /*global $, window, XDomainRequest */
